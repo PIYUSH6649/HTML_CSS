@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      body {
+        font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+      }
+      .parent {
+        margin: auto;
+        height: 500px;
+        width: 500px;
+      }
+      img {
+        height: 250px;
+        width: 250px;
+      }
+      .second {
+        padding: 10px;
+      }
+      .write {
+        padding: 5px;
+        margin: 5px;
+        width: 95%;
+        color: rgb(203, 201, 201);
+      }
+      .buttons {
+        background-color: rgb(30, 205, 30);
+        color: white;
+        padding: 5px;
+        margin: 7px;
+        width: 98%;
+      }
+      .third {
+        background-color: rgb(232, 230, 230);
+      }
+      ul {
+        list-style-type: none;
+        padding: 0;
+      }
+      li {
+        display: inline-block;
+      }
+      a {
+        text-decoration: none;
+        color: black;
+      }
+      .cancel {
+        background-color: rgb(216, 10, 10);
+        color: white;
+        padding: 10px 15px;
+        border-radius: 10%;
+        margin-right: 300px;
+      }
+    </style>
+    <title>Task 11</title>
+  </head>
+  <body>
+    <center><h1>TASK 11</h1></center>
+    <div class="parent">
+      <div class="first">
+        <center><img src="css6.jpg" alt="avatar" /></center>
+      </div>
+      <div class="second">
+        <label for="name"><b>Username</b></label>
+        <br />
+        <input
+          class="write"
+          type="text"
+          placeholder="Enter Username"
+          required
+        />
+        <br />
+        <label for="password"><b>Password</b></label>
+        <br />
+        <input
+          class="write"
+          type="password"
+          placeholder="Enter Password"
+          required
+        />
+        <br />
+        <input class="buttons" type="button" value="Login" />
+        <br />
+        <input type="checkbox" />Remember me
+      </div>
+      <div class="third">
+        <ul>
+          <li><input class="cancel" type="button" value="Cancel" /></li>
+          <li><a href="" target="_blank">Forgot password?</a></li>
+        </ul>
+      </div>
+    </div>
+  </body>
+</html>
